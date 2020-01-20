@@ -3,13 +3,14 @@ package katas.romannumeral;
 import org.junit.Assert;
 import org.junit.Test;
 
+//
 public class EntryTest {
 
     @Test
     public void Arabic_to_Roman_Positive() {
         Assert.assertEquals("I", RomanNumerals.arabicToRoman(1));
-        Assert.assertEquals("One is printed", "I", RomanNumerals.arabicToRoman(1));
-        Assert.assertEquals("2", "II", RomanNumerals.arabicToRoman(2));
+        Assert.assertEquals("I", RomanNumerals.arabicToRoman(1));
+        Assert.assertEquals("II", RomanNumerals.arabicToRoman(2));
         Assert.assertEquals("III", RomanNumerals.arabicToRoman(3));
         Assert.assertEquals("IV", RomanNumerals.arabicToRoman(4));
         Assert.assertEquals("6", "VI", RomanNumerals.arabicToRoman(6));
